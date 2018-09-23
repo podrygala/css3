@@ -1,0 +1,23 @@
+[title] {
+    color:red;
+}
+
+[title="About me"] {
+    color: orange;
+}
+
+[title~="tainer"] {
+    color:green;
+}
+
+[title*="tion"] {
+    background-color: grey;
+}
+
+[title^="More"] {
+    color: violet;
+}
+
+[title$="skills"] {
+    color: aqua;
+}
