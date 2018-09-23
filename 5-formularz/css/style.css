@@ -1,0 +1,75 @@
+* {
+    color: white;
+    margin: 5px;
+}
+
+body {
+    background-color: #213b50;
+    padding: 20px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    background-color: #3E606F;
+    border: none;
+    width: 400px;
+    height: 25px;
+}
+
+select {
+    background-color: #3E606F;
+    width: 400px;
+    height: 25px;
+    border: none;
+    border-radius: 0px;
+}
+
+form > textarea:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px white solid;
+    outline: none;
+}
+
+form > select:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px white solid;
+    outline: none;
+}
+
+label[for="male"], label[for="female"], label[for="agreement"] {
+    display: inline;
+}
+
+form > input:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px white solid;
+    outline: none;
+}
+
+textarea {
+    background-color: #3E606F;
+    width: 400px;
+    height: 200px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #3EE06F;
+    border: none;
+    padding: auto;
+    width: 60px;
+    height: 30px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+   cursor: pointer;
+    background-color: limegreen;
+}
