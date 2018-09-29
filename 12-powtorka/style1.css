@@ -1,0 +1,13 @@
+.box {
+    font-size: 0;
+}
+
+.box-el {
+    width: 33.3333%;
+    height: 250px;
+    background-color: aqua;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 26px;
+    outline: 1px solid white;
+}

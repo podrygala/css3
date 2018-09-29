@@ -1,0 +1,16 @@
+.context {
+    margin: 100px;
+    width: 450px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+}
+
+.absolute-el {
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
