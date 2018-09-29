@@ -1,0 +1,95 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    background-color: blueviolet;
+}
+
+.box-el {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    outline: 2px solid white;
+}
+
+
+.box-el::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: aquamarine;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    height: 80px;
+}
+
+#box-2 {
+    left: 100px;
+    top: 0;
+    background-color: aqua;
+}
+
+#box-2::before {
+    background-color: blue;
+}
+
+#box-3 {
+    left: 200px;
+    top: 0;
+    background-color: yellow;
+}
+
+#box-4 {
+    left: 0;
+    top: 100px;
+    background-color: blanchedalmond;
+}
+
+#box-5 {
+    left: 100px;
+    top: 100px;
+    background-color: black;
+}
+
+#box-6 {
+    left: 200px;
+    top: 100px;
+    background-color: gray;
+}
+
+#box-7 {
+    left: 0;
+    top: 200px;
+    background-color: green;
+}
+
+#box-8 {
+    left: 100px;
+    top: 200px;
+    background-color: pink;
+}
+
+#box-9 {
+    left: 200px;
+    top: 200px;
+    background-color: violet;
+}
+
+a::before {
+    content: "Link to:"
+}
