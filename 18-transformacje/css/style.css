@@ -1,0 +1,30 @@
+.transform {
+    transition: all 1s;
+    position: relative;
+}
+
+.transform-rotate:hover {
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+
+.transform-translate:hover {
+/*    transform: translate(-100px, 100px);*/
+    transform: translateX(200px);
+}
+
+.transform-scale:hover {
+/*    transform: scale(2);*/
+    transform: scaleX(2)
+}
+
+.center {
+    width: 30%;
+    height: 30%;
+    background-color: greenyellow;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
